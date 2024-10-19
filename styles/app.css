@@ -358,7 +358,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50rem;
 }
 .comment__title{
     color: #fff;
@@ -410,7 +409,8 @@ body {
     padding-top: 11rem;
     display: flex;
     justify-content: space-around;
-    margin-right: 2rem;``
+    margin-right: 2rem; 
+    padding-bottom: 3.5rem;
 }
 
 
