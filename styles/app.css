@@ -348,6 +348,7 @@ body {
 }
 .work-main-img__img{
     width: 100%;
+    padding-bottom: 5rem;
 }
 
 /* Start Comment */
@@ -378,11 +379,16 @@ body {
 }
 .comments{
     display: flex;
+    justify-content: center;
     margin-top: 5rem;
 }
 .comment{
+    display: flex;
+    flex-direction: column;
+    min-height: 16rem;
+    justify-content: space-between;
     background-color: #fff;
-    width: 19rem;
+    flex-basis: 20rem;
     border-radius: 0.3rem;
     padding: 0;
     margin-right: 3rem;
@@ -392,7 +398,6 @@ body {
     font-family: 'Times New Roman italic';
     font-style: italic;
     padding: 0.7rem ;  
-    height: 10rem;
 }
 .comment__info{
     border-top: 1px solid #E8EBEF;
@@ -406,13 +411,95 @@ body {
 }   
 .comment__logo{
     width: 70rem;
-    padding-top: 11rem;
+    padding-top: 8rem;
     display: flex;
     justify-content: space-around;
     margin-right: 2rem; 
     padding-bottom: 3.5rem;
 }
 
+/* PORTFOLIO Start */
+
+
+.portfolio__section{
+    text-align: center;
+    margin-top: 5rem;
+}
+.portfolio__text{
+    color: #6C7890;
+    font-family: 'TTNorms Light';
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+.portfolio__title{
+    color: #081D43;
+    font-family: 'TTNorms Light';
+    font-weight: 600;
+    margin-top: 0;
+    padding-bottom: 3rem;
+}
+.portfolio__image{
+    margin-bottom: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio-img___wrapper{
+    flex-basis: 23rem;
+}
+.portfolio__img{
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 0.9rem;
+}
+
+/* Start Footer */
+.footer__top{
+    background-color: #2F5BEA;
+    color: #fff;
+    padding: 10em 0;
+}
+.footer-top__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-top__text{
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+.footer-top__email{
+    background-color: #fff;
+    padding: 0.4rem 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0.3rem;
+}
+.footer-top__txt{
+    outline: none;
+    border: none;
+}
+.footer-top__btn{
+    background-color: #2F5BEA;
+    border: none;
+    outline: none;
+    padding: 0.8rem 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.2rem;
+}
+.footer__copyright{
+    padding: 1rem 0;
+}   
+.footer-copyright-text__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-copyright__text{
+    color: #6C7890;
+} 
 
 /* Project Responsive */
 
