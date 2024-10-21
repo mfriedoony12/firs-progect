@@ -585,6 +585,6 @@ body {
         flex-wrap: wrap;
     }
     .main-content__text{
-        max-width: 100%;
+        max-width: 12rem;
 }
 }
